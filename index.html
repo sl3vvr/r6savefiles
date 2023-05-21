@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Rainbow Six Siege | Save Files</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>R6 Save Files | Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <video autoplay muted loop>
-        <source src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/41eNOPTEyiY3vlBRyePRWS/1d4bf15539061cfb944bf4389ec822a2/R6_Y8S2_16_9_Textless.mp4" type="video/mp4">
-    </video>
+  <div id="video-container">
+    <video id="background-video" src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/41eNOPTEyiY3vlBRyePRWS/1d4bf15539061cfb944bf4389ec822a2/R6_Y8S2_16_9_Textless.mp4" muted autoplay loop></video>
+    <div id="content">
+      <h1></h1>
+      <p></p>
+    </div>
+    <div id="button-container">
+      <a id="my-button" href="https://sl3vvr.github.io/r6savefiles/savefiles/" target="_blank">Save Files</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
